@@ -2,6 +2,7 @@ from run import *
 
 
 def main():
+    print("Beginning Simulation...")
     run()
     print("Complete!")
 
