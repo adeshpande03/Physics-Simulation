@@ -28,3 +28,4 @@ class Solid():
         self.tang = tang
         self.sticky = sticky
         self.rigid = rigid
+
