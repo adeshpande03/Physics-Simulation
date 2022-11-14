@@ -1,7 +1,7 @@
 import tkinter as tk
 import inspect
 from solid import *
-from numObjects import *
+
 
 args = [
     d.strip().split("=")[0]
@@ -45,7 +45,7 @@ def main():
     print(createForm())
 
 
-# main()
+main()
 
 
 # Original Code

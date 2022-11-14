@@ -9,9 +9,9 @@ class Solid:
         yVel=0,
         xAccel=0,
         yAccel=0,
-        tang=True,
         fric=0,
         mass=0,
+        tang=True,
         sticky=False,
         rigid=False,
     ):
@@ -23,8 +23,8 @@ class Solid:
         self.yVel = yVel
         self.xAccel = xAccel
         self.yAccel = yAccel
-        self.tang = tang
         self.fric = fric
         self.mass = mass
+        self.tang = tang
         self.sticky = sticky
         self.rigid = rigid

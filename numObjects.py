@@ -1,5 +1,5 @@
 from tkinter import simpledialog
-from solid import *
+
 
 
 def askNumObjects():
