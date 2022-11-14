@@ -5,7 +5,7 @@ from solid import *
 
 args = [
     d.strip().split("=")[0]
-    for d in str(inspect.signature(Solid.__init__))[1:-1].split(",")[1:]
+    for d in str(inspect.signature(solid.__init__))[1:-1].split(",")[1:]
 ]
 
 

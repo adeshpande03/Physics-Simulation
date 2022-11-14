@@ -1,4 +1,4 @@
-class Solid():
+class solid:
     def __init__(
         self,
         x=0,
@@ -28,4 +28,3 @@ class Solid():
         self.tang = tang
         self.sticky = sticky
         self.rigid = rigid
-
