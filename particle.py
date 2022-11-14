@@ -7,5 +7,5 @@ class Particle():
         self.xAccel = xAccel
         self.yAccel = yAccel
         self.tang = tang
-
+    
         
