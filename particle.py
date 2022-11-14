@@ -1,5 +1,5 @@
 class Particle():
-    def __init__(self, x, y, xVel = 0, yVel = 0, xAccel = 0, yAccel = 0, tang = True):
+    def __init__(self, x, y, xVel = 0, yVel = 0, xAccel = 0, yAccel = 0, tang = True, fric = 0, sticky = False):
         self.x = x
         self.y = y
         self.xVel = xVel
@@ -7,5 +7,7 @@ class Particle():
         self.xAccel = xAccel
         self.yAccel = yAccel
         self.tang = tang
+        self.fric = fric
+        self.sticky = sticky
     
         
