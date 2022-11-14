@@ -1,5 +1,5 @@
-class Particle():
-    def __init__(self, x, y, leng = 1, wid = 1, xVel = 0, yVel = 0, xAccel = 0, yAccel = 0, tang = True, fric = 0, sticky = False):
+class Solid():
+    def __init__(self, x, y, leng = 1, wid = 1, xVel = 0, yVel = 0, xAccel = 0, yAccel = 0, tang = True, fric = 0, sticky = False, rigid = False):
         self.x = x
         self.y = y
         self.leng = leng
@@ -11,5 +11,6 @@ class Particle():
         self.tang = tang
         self.fric = fric
         self.sticky = sticky
+        self.rigid = rigid
     
         
