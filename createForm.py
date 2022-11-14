@@ -1,7 +1,8 @@
 import tkinter as tk
 import inspect
 from solid import *
-
+from collections import OrderedDict
+import random
 
 args = [
     d.strip().split("=")[0]
@@ -38,7 +39,12 @@ def createForm():
         for j, i in enumerate(varArr)
     ]
     master.mainloop()
-    return {args[j]: i.get() for j, i in enumerate(varArr)}
+    varDict = OrderedDict()
+    for j, i in enumerate(varArr):
+        varDict[args[j]] = i.get()
+
+    # {args[j]: i.get() for j, i in enumerate(varArr)}
+    return varDict
 
 
 def main():
