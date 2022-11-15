@@ -1,8 +1,10 @@
-class solid:
+class Rsolid:
     def __init__(
         self,
         x=0,
         y=0,
+        length=1,
+        width=1,
         xVel=0,
         yVel=0,
         xAccel=0,
@@ -11,6 +13,8 @@ class solid:
     ):
         self.x = x
         self.y = y
+        self.length = length
+        self.width = width
         self.xVel = xVel
         self.yVel = yVel
         self.xAccel = xAccel

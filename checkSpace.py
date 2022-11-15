@@ -1,4 +1,4 @@
-import solid
+import Rsolid
 
 
 def checkSpace(firstSolidDict, secondSolidDict):
