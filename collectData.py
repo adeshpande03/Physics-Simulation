@@ -1,14 +1,14 @@
 import createForm
 import numObjects
-import solid
+
 
 def test():
-    testDict = main()
+    testDict = collectData()
     for i in testDict:
         print(i, testDict.get(i))
 
 
-def main():
+def collectData():
     dataDict = dict()
     numForms = numObjects.askNumObjects()
     for _ in range(numForms):
