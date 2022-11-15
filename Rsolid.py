@@ -28,3 +28,8 @@ class Rsolid:
                      \n The x-acceleration is {self.xAccel}, the y-acceleration is {self.yAccel}.\
                      \n The mass is {self.mass}."
         return properties
+    def checkCollision(self, RSolid2):
+        return False
+    def collisionResult(self, RSolid2):
+        return None
+        
