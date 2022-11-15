@@ -8,8 +8,11 @@ dataDict = collectData()
 
 def generateObjects(dataDict):
     objArr = OrderedDict()
-    for data in dataDict:
-        print(data)
+    for ID in dataDict:
+        print(ID, dataDict[ID])
+        objArr[ID] = solid.solid(**dataDict[ID])
+    for ID in objArr:
+        print(objArr[ID])
     return objArr
 
 

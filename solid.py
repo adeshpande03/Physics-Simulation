@@ -25,6 +25,15 @@ class solid:
         self.yAccel = yAccel
         self.fric = fric
         self.mass = mass
-        self.tang = tang
-        self.sticky = sticky
-        self.rigid = rigid
+        self.tang = bool(tang)
+        self.sticky = bool(sticky)
+        self.rigid = bool(rigid)
+
+    def __str__(self):
+        properties = f"\n\
+                     \n The x-position is {self.x}, the y-position is {self.y}.\
+                     \n The x-velocity is {self.xVel}, the y-velocity is {self.yVel}.\
+                     \n The x-acceleration is {self.xAccel}, the y-acceleration is {self.yAccel}.\
+                     \n The friction is {self.fric}, the mass is {self.mass}.\
+                     \n The object's tangibility is {self.tang}, it's stickiness is {self.sticky}, and the rigidity is {self.rigid} "
+        return properties
