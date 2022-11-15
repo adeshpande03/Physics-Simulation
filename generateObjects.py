@@ -4,10 +4,11 @@ from collections import OrderedDict
 import solid
 
 
+    
+def generateObjects(dataDict):
 
-def generateObjects(dataArr):
     objArr = OrderedDict()
-    for dataDict in dataArr:
-        objArr.append(solid(**dataDict))
+    for data in dataDict:
+        print(data)
     return objArr
     

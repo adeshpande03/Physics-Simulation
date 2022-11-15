@@ -39,11 +39,12 @@ def createForm():
         for j, i in enumerate(varArr)
     ]
     master.mainloop()
-    varDict = OrderedDict()
+    varDict = dict()
     for j, i in enumerate(varArr):
         varDict[args[j]] = i.get()
 
     # {args[j]: i.get() for j, i in enumerate(varArr)}
+    master.destroy()
     return varDict
 
 
@@ -51,7 +52,7 @@ def main():
     print(createForm())
 
 
-main()
+# main()
 
 
 # Original Code
