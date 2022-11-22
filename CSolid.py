@@ -1,11 +1,12 @@
 import numpy as np
 
+
 class CSolid:
     def __init__(
         self,
         x=0,
         y=0,
-        radius = 0,
+        radius=0,
         xVel=0,
         yVel=0,
         xAccel=0,
@@ -28,7 +29,6 @@ class CSolid:
                      \n The x-acceleration is {self.xAccel}, the y-acceleration is {self.yAccel}.\
                      \n The mass is {self.mass}, the radius is {self.radius}."
         return properties
-    
+
     def calculateArea(self):
-        center = (self.xPos , self.yPos)
-        
+        center = (self.xPos, self.yPos)
