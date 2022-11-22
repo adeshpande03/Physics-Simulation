@@ -1,7 +1,7 @@
 import pygame
 import math
 import pymunk
-import Rsolid
+import CSolid
 
 
 def run(length=960, width=594, fps=60, color=(0, 0, 0)):

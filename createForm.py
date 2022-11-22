@@ -1,12 +1,12 @@
 import tkinter as tk
 import inspect
-from Rsolid import *
+from CSolid import *
 from collections import OrderedDict
 import random
 
 args = [
     d.strip().split("=")[0]
-    for d in str(inspect.signature(Rsolid.__init__))[1:-1].split(",")[1:]
+    for d in str(inspect.signature(CSolid.__init__))[1:-1].split(",")[1:]
 ]
 
 
