@@ -32,4 +32,3 @@ class CSolid:
     def calculateArea(self):
         center = (self.xPos , self.yPos)
         
-        

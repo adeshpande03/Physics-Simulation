@@ -16,4 +16,4 @@ def generateObjects(dataDict):
     return objArr
 
 
-generateObjects(dataDict=dataDict)
+
