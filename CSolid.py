@@ -1,6 +1,4 @@
 import numpy as np
-
-
 class CSolid:
     def __init__(
         self,
@@ -30,5 +28,5 @@ class CSolid:
                      \n The mass is {self.mass}, the radius is {self.radius}."
         return properties
 
-    def calculateArea(self):
-        center = (self.xPos, self.yPos)
+
+        
